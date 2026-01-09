@@ -1,5 +1,5 @@
 
-class Interpreter:
+class ASMARM:
     def __init__(self, path: str):
         self.source = path
         self.R = [0] * 16  # TODO: fill with i32s
